@@ -1,4 +1,4 @@
-def perfect_suqare?(input)
+def perfect_square?(input)
   closest = Math.sqrt(input).ceil
   return true if input == closest * closest
 end
@@ -18,5 +18,5 @@ def fermat(num)
   [fac1.round, fac2.round]
 end
 
-# r = fermat(5959)
-# p r1
+ r1 = fermat(864)
+ p r1
